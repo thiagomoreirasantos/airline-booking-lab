@@ -11,6 +11,7 @@
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/Airline.Booking.Api.AssemblyInfo.cs
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/Airline.Booking.Api.csproj.CoreCompileInputs.cache
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/Airline.Booking.Api.MvcApplicationPartsAssemblyInfo.cache
+/home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/Airline.Booking.Api.sourcelink.json
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
