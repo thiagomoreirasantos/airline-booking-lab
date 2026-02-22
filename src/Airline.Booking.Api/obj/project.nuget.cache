@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "99jmihl3iP8=",
+  "success": true,
+  "projectFilePath": "/home/thmsantos/repo/airline-booking-lab/src/Airline.Booking.Api/Airline.Booking.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/thmsantos/.nuget/packages/microsoft.netcore.app.ref/9.0.13/microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "/home/thmsantos/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.13/microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
+    "/home/thmsantos/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.13/microsoft.netcore.app.host.linux-x64.9.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

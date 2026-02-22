@@ -1,0 +1,6 @@
+apiVersion: v2
+name: airline-booking
+description: Helm chart for Airline Booking API with OpenTelemetry zero-code instrumentation
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

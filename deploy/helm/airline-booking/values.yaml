@@ -1,0 +1,38 @@
+replicaCount: 1
+
+image:
+  repository: airline-booking-api
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+probes:
+  liveness:
+    path: /health
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  readiness:
+    path: /ready
+    initialDelaySeconds: 5
+    periodSeconds: 10
+
+otel:
+  serviceName: airline-booking-api
+  exporterEndpoint: http://otel-collector.airline-observability.svc.cluster.local:4318
+  exporterProtocol: http/protobuf
+  resourceAttributes: deployment.environment=dev,service.version=0.1.0
+  tracesExporter: otlp
+  metricsExporter: otlp
+  logsExporter: otlp
